@@ -12,6 +12,7 @@ A mobile habit tracking app that combines the addictive gameplay of Minecraft wi
 - **Biome Themes**: Choose from different Minecraft-inspired worlds
 - **Pixel Pet**: Your companion that evolves with your habit consistency
 - **Streak System**: Build streaks and unlock new blocks and themes
+- **QR Code Sharing**: Share and discover habits through QR codes
 
 ## 🎮 Gamification Elements
 
@@ -29,6 +30,7 @@ A mobile habit tracking app that combines the addictive gameplay of Minecraft wi
 - **Animations**: React Native Reanimated
 - **UI Components**: Custom pixel-art styled components
 - **Audio**: Expo AV for sound effects
+- **QR Codes**: expo-camera, expo-barcode-scanner, react-native-qrcode-svg
 
 ## 📱 Screens
 
@@ -53,6 +55,9 @@ npm run ios
 
 # Run on Android
 npm run android
+
+# Get QR code for Expo Go
+npx expo start
 ```
 
 ## 🎨 Design Philosophy
