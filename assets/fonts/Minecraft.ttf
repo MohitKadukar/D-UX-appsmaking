@@ -1,0 +1,3 @@
+# Minecraft Font Placeholder
+# In a real app, you would place the actual Minecraft.ttf font file here
+# For now, the app will fall back to system fonts if this file is missing

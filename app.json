@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "BlockHabits",
+    "slug": "blockhabits",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#2d5016",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "BlockHabits needs camera access to scan QR codes for sharing habits with friends."
+      }
+    },
+    "android": {
+      "backgroundColor": "#2d5016",
+      "permissions": ["CAMERA"]
+    },
+    "web": {},
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow BlockHabits to access your camera to scan QR codes for sharing habits."
+        }
+      ],
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "Allow BlockHabits to access your camera to scan QR codes for sharing habits."
+        }
+      ]
+    ]
+  }
+}
